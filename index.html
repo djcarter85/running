@@ -13,4 +13,21 @@ layout: default
       aria-valuemin="0" aria-valuemax="100">25%</div>
   </div>
 
+  <table class="table table-sm table-hover">
+    <tr>
+      <th>Date</th>
+      <th>Distance</th>
+      <th>Time</th>
+    </tr>
+
+    {% for run in site.data.runs %}
+    <tr>
+      <td>{{ run.date | date: "%a %e %b" }}</td>
+      <td>{{ run.distance }} km</td>
+      <td>{{ run.time }}</td>
+    </tr>
+    {% endfor %}
+
+  </table>
+
 </div>
