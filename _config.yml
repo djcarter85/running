@@ -1,0 +1,7 @@
+# Site settings
+title: DC Running
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
