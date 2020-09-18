@@ -20,12 +20,18 @@ layout: default
       <th>Time</th>
     </tr>
 
-    {% for run in site.data.runs %}
+    {% for post in site.posts %}
+    {% if post.categories contains "run" %}
     <tr>
-      <td>{{ run.date | date: "%a %e %b" }}</td>
-      <td>{{ run.distance }} km</td>
-      <td>{{ run.time }}</td>
+      <td>
+        <a href="{{ post.url }}">
+          {{ post.date | date: "%a %e %b" }}
+        </a>
+      </td>
+      <td>{{ post.distance }} km</td>
+      <td>{{ post.time }}</td>
     </tr>
+    {% endif %}
     {% endfor %}
 
   </table>
