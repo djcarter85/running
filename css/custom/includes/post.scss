@@ -1,12 +1,12 @@
 .post img {
   width: 100%;
   clear: both;
+  margin-bottom: 1rem;
 
   @include media-breakpoint-up(sm) {
     float: right;
     width: 50%;
-    margin-left: 6px;
-    margin-bottom: 6px;
+    margin-left: 1rem;
   }
 
   @include media-breakpoint-up(lg) {

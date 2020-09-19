@@ -11,13 +11,7 @@ layout: default
     <a href="/intro/">Read the introduction</a> for more information about what I'm doing and why.
   </p>
 
-  <p>
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped" role="progressbar"
-      style="width: {{ site.data.progress.percentage }}%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-    </div>
-  </div>
-  </p>
+  {% include progress.html percentage=site.data.progress.percentage %}
 
   <dl class="row">
     <dt class="col-sm-4">Distance run</dt>

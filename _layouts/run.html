@@ -2,4 +2,15 @@
 layout: post
 ---
 
+{% include progress.html percentage=page.percentage %}
+
 {{ content }}
+
+<dl>
+  <dt>Run today</dt>
+  <dl>{{ page.distance }} km</dl>
+  <dt>Time</dt>
+  <dl>{{ page.time }}</dl>
+  <dt>Run total</dt>
+  <dl>{{ page.cumulative-distance }} km</dl>
+</dl>
