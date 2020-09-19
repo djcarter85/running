@@ -3,10 +3,9 @@ layout: default
 ---
 
 <section class="post">
-
   <div class="container">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-date">{{ page.date | date: "%a %d %b %Y" }}</h1>
+    <h2 class="post-title">{{ page.title }}</h2>
+    <p class="post-date">{{ page.date | date: "%a %e %b" }}</p>
     {{ content }}
   </div>
 </section>
