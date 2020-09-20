@@ -1,6 +1,7 @@
 <p>
-  <div class="progress">
-    <div class="progress-bar bg-success" role="progressbar" style="width: {{ include.percentage }}%">
-    </div>
+<div class="progress">
+  {% assign percentage = include.distance | divided_by: site.data.progress.target-distance | times: 100 %}
+  <div class="progress-bar bg-success" role="progressbar" style="width: {{ percentage }}%">
   </div>
+</div>
 </p>
