@@ -7,10 +7,8 @@ layout: post
 {{ content }}
 
 <dl>
-  <dt>Run today</dt>
-  <dl>{{ page.distance }} km</dl>
-  <dt>Time</dt>
-  <dl>{{ page.time }}</dl>
-  <dt>Run total</dt>
-  <dl>{{ page.cumulative-distance }} km</dl>
+  <dt>Today</dt>
+  <dl>{{ page.distance }} km in {{ page.time }}</dl>
+  <dt>Cumulative</dt>
+  <dl>{{ page.cumulative-distance }} km out of {{ site.data.progress.target-distance }} km</dl>
 </dl>
