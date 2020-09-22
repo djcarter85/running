@@ -24,10 +24,11 @@ layout: default
     <tr>
       <th>Date</th>
       <th>Distance</th>
-      <th>Time</th>
+      <th>Cumulative</th>
     </tr>
 
-    {% for post in site.posts %}
+    {% assign postsInChronologicalOrder = site.posts | reverse %}
+    {% for post in postsInChronologicalOrder %}
     {% if post.categories contains "run" %}
     <tr>
       <td>
@@ -36,7 +37,7 @@ layout: default
         </a>
       </td>
       <td>{{ post.distance }} km</td>
-      <td>{{ post.time }}</td>
+      <td>{{ post.cumulative-distance }} km</td>
     </tr>
     {% endif %}
     {% endfor %}
