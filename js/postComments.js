@@ -37,7 +37,8 @@ class PostCommentsForm extends React.Component {
     const payload = {
       name: this.state.name,
       emailAddress: this.state.emailAddress,
-      text: this.state.text
+      text: this.state.text,
+      postId: this.props.postId
     };
 
     await fetch(
@@ -92,5 +93,8 @@ class PostCommentsForm extends React.Component {
   }
 }
 
+var scriptTag = document.getElementById("postComment")
+var postId = scriptTag.getAttribute("data-postid");
+
 const domContainer = document.querySelector('#postCommentForm');
-ReactDOM.render(React.createElement(PostCommentsForm), domContainer);
+ReactDOM.render(React.createElement(PostCommentsForm, { postId: postId }), domContainer);
