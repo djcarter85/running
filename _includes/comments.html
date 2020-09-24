@@ -20,7 +20,7 @@
       <div class="media-body">
         <div class="comment-author">{{ comment.author | escape }}</div>
         <div class="comment-date">{{ comment.timestamp | date: "%a %e %b" }}</div>
-        <div class="comment-text">{{ comment.text | escape}}</div>
+        <div class="comment-text">{{ comment.text | escape | newline_to_br | strip_newlines | markdownify }}</div>
       </div>
     </div>
     {% endfor %}
