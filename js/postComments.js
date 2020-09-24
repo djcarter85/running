@@ -97,4 +97,7 @@ var scriptTag = document.getElementById("postComment")
 var postId = scriptTag.getAttribute("data-postid");
 
 const domContainer = document.querySelector('#postCommentForm');
-ReactDOM.render(React.createElement(PostCommentsForm, { postId: postId }), domContainer);
+
+if (domContainer) {
+  ReactDOM.render(React.createElement(PostCommentsForm, { postId: postId }), domContainer);
+}
