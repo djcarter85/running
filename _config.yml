@@ -2,6 +2,6 @@
 title: DC Running
 
 # Build settings
-permalink: :title/
+permalink: /:year/:month/:day/:title/
 sass:
   sass_dir: css
