@@ -56,7 +56,7 @@ class PostCommentsForm extends React.Component {
   render() {
     if (this.state.sent) {
       return (
-        <div class="alert alert-success" role="alert">
+        <div className="alert alert-success" role="alert">
           Thank you for your comment! It will appear here shortly.
         </div>
       );
