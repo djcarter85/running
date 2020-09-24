@@ -1,0 +1,19 @@
+.comments-title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.comment {
+  margin-bottom: 1.5rem;
+}
+
+.comment-author {
+  font-weight: bold;
+  font-family: $headings-font-family;
+}
+
+.comment-date {
+  color: $gray-600;
+  margin-top: 0;
+  font-size: 0.9em;
+}

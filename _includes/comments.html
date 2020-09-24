@@ -1,0 +1,29 @@
+<section class="comments">
+
+  <div class="container">
+
+    <h3 class="comments-title">Comments</h3>
+
+    {% assign sortedComments = site.data.comments | sort %}
+    {% for entry in sortedComments %}
+
+    {% assign comment = entry[1] %}
+
+    {% if comment.postId != include.post-id %}
+    {% continue %}
+    {% endif %}
+
+    <div class="media comment">
+      <div class="comment-image">
+        <img src="https://www.gravatar.com/avatar/{{comment.hashedEmailAddress}}?d=identicon&s=64" class="mr-3" />
+      </div>
+      <div class="media-body">
+        <div class="comment-author">{{ comment.author | escape }}</div>
+        <div class="comment-date">{{ comment.timestamp | date: "%a %e %b" }}</div>
+        <div class="comment-text">{{ comment.text | escape}}</div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
