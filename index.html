@@ -11,13 +11,13 @@ layout: default
     <a href="/2020/09/18/intro/">Read the introduction</a> for more information about what I'm doing and why.
   </p>
 
-  {% include progress.html distance=site.data.progress.distance-run %}
+  {% include progress.html distance=site.data.run100.distance-run %}
 
   <dl class="row">
     <dt class="col-sm-4">Distance run</dt>
-    <dd class="col-sm-2">{{ site.data.progress.distance-run }} km</dd>
+    <dd class="col-sm-2">{{ site.data.run100.distance-run }} km</dd>
     <dt class="col-sm-4">Distance remaining</dt>
-    <dd class="col-sm-2">{{ site.data.progress.target-distance | minus: site.data.progress.distance-run }} km</dd>
+    <dd class="col-sm-2">{{ site.data.run100.target-distance | minus: site.data.run100.distance-run }} km</dd>
   </dl>
 
   <table class="table table-striped table-sm table-hover">
@@ -29,7 +29,7 @@ layout: default
 
     {% assign postsInChronologicalOrder = site.posts | reverse %}
     {% for post in postsInChronologicalOrder %}
-    {% if post.categories contains "run" %}
+    {% if post.categories contains "run100" %}
     <tr>
       <td>
         <a href="{{ post.url }}" class="font-weight-bold">
