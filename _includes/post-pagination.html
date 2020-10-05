@@ -1,0 +1,16 @@
+<section>
+  <div class="container mb-2">
+    <div class="row">
+      <div class="col-6">
+        {% if page.previous %}
+        {% include related-post.html related=page.previous prefix="&laquo;" %}
+        {% endif %}
+      </div>
+      <div class="col-6">
+        {% if page.next %}
+        {% include related-post.html related=page.next suffix="&raquo;" %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
