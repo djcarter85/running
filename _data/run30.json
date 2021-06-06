@@ -1,6 +1,6 @@
 {
   "target-distance": 30,
-  "distance-run": 25.92,
+  "distance-run": 28.85,
   "runs": [
     {
       "date": "2021-05-12",
@@ -46,6 +46,11 @@
       "date": "2021-06-02",
       "distance": 2.4,
       "cumulative-distance": 25.92
+    },
+    {
+      "date": "2021-06-06",
+      "distance": 2.93,
+      "cumulative-distance": 28.85
     }
   ]
 }
