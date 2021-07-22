@@ -39,43 +39,29 @@ One particular aim early on is to get back up to doing 5km runs regularly. Parkr
     <th>S</th>
   </tr>
 
-  <tr>
-    <td><em>28 June</em><br />Football</td>
-    <td><em>29</em><br />Walk 6000</td>
-    <td><em>30</em><br />Run 3km</td>
-    <td><em>01 July</em><br />Walk 6000</td>
-    <td><em>02</em><br />Walk 6000</td>
-    <td><em>03</em><br />Walk 6000</td>
-    <td><em>04</em><br />Indoor workout</td>
-  </tr>
-
-  <tr>
-    <td><em>05</em><br />Run 4km</td>
-    <td><em>06</em><br />Walk 6000</td>
-    <td><em>07</em><br />Walk 6000</td>
-    <td><em>08</em><br />Indoor workout</td>
-    <td><em>09</em><br />Walk 6000</td>
-    <td><em>10</em><br />Run 5km</td>
-    <td><em>11</em><br />Walk 6000</td>
-  </tr>
-
-  <tr>
-    <td><em>12</em><br />Football</td>
-    <td><em>13</em><br />Walk 6000</td>
-    <td><em>14</em><br />Indoor workout</td>
-    <td><em>15</em><br />Walk 6000</td>
-    <td><em>16</em><br />Run 5km</td>
-    <td><em>17</em><br />Walk 6000</td>
-    <td><em>18</em><br />Walk 6000</td>
-  </tr>
-
-  <tr>
-    <td><em>19</em><br />Football</td>
-    <td><em>20</em><br />Indoor workout</td>
-    <td><em>21</em><br />Walk 6000</td>
-    <td><em>22</em><br />Intervals 60s/60s x8</td>
-    <td><em>23</em><br /></td>
-    <td><em>24</em><br /></td>
-    <td><em>25</em><br /></td>
-  </tr>
+  {% for week in site.data.weekly-exercise.weeks %}
+    <tr>
+      {% for day in week.days %}
+        <td>
+          <em>
+            {{ day.date }}
+          </em>
+          <br />
+          {% case day.exerciseType %}
+            {% when "football" %}
+              ⚽
+            {% when "intervals" %}
+              ⏱
+            {% when "run" %}
+              🏃‍♂️
+            {% when "walk" %}
+              🚶‍♂️
+            {% when "workout" %}
+              🏋️‍♂️
+          {% endcase %}
+          {{ day.comment }}
+        </td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
 </table>

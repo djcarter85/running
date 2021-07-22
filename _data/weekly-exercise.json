@@ -1,0 +1,160 @@
+{
+  "weeks": [
+    {
+      "days": [
+        {
+          "date": "28 June",
+          "exerciseType": "football",
+          "comment": ""
+        },
+        {
+          "date": "29",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "30",
+          "exerciseType": "run",
+          "comment": "3km"
+        },
+        {
+          "date": "01 July",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "02",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "03",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "04",
+          "exerciseType": "workout",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "05",
+          "exerciseType": "run",
+          "comment": "4km"
+        },
+        {
+          "date": "06",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "07",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "08",
+          "exerciseType": "workout",
+          "comment": ""
+        },
+        {
+          "date": "09",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "10",
+          "exerciseType": "run",
+          "comment": "5km"
+        },
+        {
+          "date": "04",
+          "exerciseType": "walk",
+          "comment": "6000"
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "05",
+          "exerciseType": "football",
+          "comment": ""
+        },
+        {
+          "date": "06",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "07",
+          "exerciseType": "workout",
+          "comment": ""
+        },
+        {
+          "date": "08",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "09",
+          "exerciseType": "run",
+          "comment": "5km"
+        },
+        {
+          "date": "10",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "11",
+          "exerciseType": "walk",
+          "comment": "6000"
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "19",
+          "exerciseType": "football",
+          "comment": ""
+        },
+        {
+          "date": "20",
+          "exerciseType": "workout",
+          "comment": ""
+        },
+        {
+          "date": "21",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "22",
+          "exerciseType": "intervals",
+          "comment": "60s/60s x8"
+        },
+        {
+          "date": "02",
+          "exerciseType": "",
+          "comment": ""
+        },
+        {
+          "date": "03",
+          "exerciseType": "",
+          "comment": ""
+        },
+        {
+          "date": "04",
+          "exerciseType": "",
+          "comment": ""
+        }
+      ]
+    }
+  ]
+}
