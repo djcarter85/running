@@ -28,40 +28,42 @@ I'm going to document how I'm doing with the chart below. I hope this will give 
 
 One particular aim early on is to get back up to doing 5km runs regularly. Parkrun starts up again on 24 June and so it seems reasonable to try and do a 5k every weekend. I won't stick to that religiously but it's a good goal to have in mind.
 
-<table class="table table-striped table-sm table-hover">
-  <tr>
-    <th>M</th>
-    <th>T</th>
-    <th>W</th>
-    <th>T</th>
-    <th>F</th>
-    <th>S</th>
-    <th>S</th>
-  </tr>
-
-  {% for week in site.data.weekly-exercise.weeks %}
+<div class="table-responsive-lg">
+  <table class="table table-striped table-sm table-hover">
     <tr>
-      {% for day in week.days %}
-        <td>
-          <em>
-            {{ day.date }}
-          </em>
-          <br />
-          {% case day.exerciseType %}
-            {% when "football" %}
-              ⚽
-            {% when "intervals" %}
-              ⏱
-            {% when "run" %}
-              🏃‍♂️
-            {% when "walk" %}
-              🚶‍♂️
-            {% when "workout" %}
-              🏋️‍♂️
-          {% endcase %}
-          {{ day.comment }}
-        </td>
-      {% endfor %}
+      <th>M</th>
+      <th>T</th>
+      <th>W</th>
+      <th>T</th>
+      <th>F</th>
+      <th>S</th>
+      <th>S</th>
     </tr>
-  {% endfor %}
-</table>
+
+    {% for week in site.data.weekly-exercise.weeks %}
+      <tr>
+        {% for day in week.days %}
+          <td>
+            <em>
+              {{ day.date }}
+            </em>
+            <br />
+            {% case day.exerciseType %}
+              {% when "football" %}
+                ⚽
+              {% when "intervals" %}
+                ⏱
+              {% when "run" %}
+                🏃‍♂️
+              {% when "walk" %}
+                🚶‍♂️
+              {% when "workout" %}
+                🏋️‍♂️
+            {% endcase %}
+            {{ day.comment }}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </table>
+</div>
