@@ -45,22 +45,23 @@ One particular aim early on is to get back up to doing 5km runs regularly. Parkr
         {% for day in week.days %}
           <td>
             <em>
-              {{ day.date }}
+              {{- day.date | replace: " ", "&nbsp;" -}}
             </em>
             <br />
-            {% case day.exerciseType %}
-              {% when "football" %}
+            {%- case day.exerciseType -%}
+              {%- when "football" -%}
                 ⚽
-              {% when "intervals" %}
+              {%- when "intervals" -%}
                 ⏱
-              {% when "run" %}
+              {%- when "run" -%}
                 🏃‍♂️
-              {% when "walk" %}
+              {%- when "walk" -%}
                 🚶‍♂️
-              {% when "workout" %}
+              {%- when "workout" -%}
                 🏋️‍♂️
-            {% endcase %}
-            {{ day.comment }}
+            {%- endcase -%}
+            &nbsp;
+            {{- day.comment | replace: " ", "&nbsp;" -}}
           </td>
         {% endfor %}
       </tr>
