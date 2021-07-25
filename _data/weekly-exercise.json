@@ -141,18 +141,18 @@
         },
         {
           "date": "02",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "walk",
+          "comment": "6000"
         },
         {
           "date": "03",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "run",
+          "comment": "5km"
         },
         {
           "date": "04",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "walk",
+          "comment": "6000"
         }
       ]
     }
