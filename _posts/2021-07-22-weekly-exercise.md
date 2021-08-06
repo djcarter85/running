@@ -59,6 +59,8 @@ One particular aim early on is to get back up to doing 5km runs regularly. Parkr
                 🚶‍♂️
               {%- when "workout" -%}
                 🏋️‍♂️
+              {%- when "none" -%}
+                ❌
             {%- endcase -%}
             &nbsp;
             {{- day.comment | replace: " ", "&nbsp;" -}}
