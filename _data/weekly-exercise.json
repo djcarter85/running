@@ -3,7 +3,7 @@
     {
       "days": [
         {
-          "date": "28 June",
+          "date": "28 Jun",
           "exerciseType": "football",
           "comment": ""
         },
@@ -18,7 +18,7 @@
           "comment": "3km"
         },
         {
-          "date": "01 July",
+          "date": "01 Jul",
           "exerciseType": "walk",
           "comment": "6000"
         },
@@ -189,7 +189,7 @@
           "comment": "6000"
         },
         {
-          "date": "01 August",
+          "date": "01 Aug",
           "exerciseType": "football",
           "comment": ""
         }
@@ -224,11 +224,167 @@
         },
         {
           "date": "07",
+          "exerciseType": "run",
+          "comment": "5km"
+        },
+        {
+          "date": "08",
+          "exerciseType": "walk",
+          "comment": "6km"
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "09",
+          "exerciseType": "football",
+          "comment": ""
+        },
+        {
+          "date": "10",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "11",
+          "exerciseType": "workout",
+          "comment": ""
+        },
+        {
+          "date": "12",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "13",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "14",
+          "exerciseType": "run",
+          "comment": "5km"
+        },
+        {
+          "date": "15",
+          "exerciseType": "walk",
+          "comment": "6000"
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "16",
+          "exerciseType": "football",
+          "comment": ""
+        },
+        {
+          "date": "17",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "18",
+          "exerciseType": "workout",
+          "comment": ""
+        },
+        {
+          "date": "19",
+          "exerciseType": "run",
+          "comment": "3km"
+        },
+        {
+          "date": "20",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "21",
+          "exerciseType": "run",
+          "comment": "5km"
+        },
+        {
+          "date": "22",
+          "exerciseType": "walk",
+          "comment": "6000"
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "23",
+          "exerciseType": "football",
+          "comment": ""
+        },
+        {
+          "date": "24",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "25",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "26",
+          "exerciseType": "run",
+          "comment": "4km"
+        },
+        {
+          "date": "27",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "28",
+          "exerciseType": "run",
+          "comment": "5km"
+        },
+        {
+          "date": "29",
+          "exerciseType": "walk",
+          "comment": "6000"
+        }
+      ]
+    },
+    {
+      "days": [
+        {
+          "date": "30",
+          "exerciseType": "walk",
+          "comment": "6000"
+        },
+        {
+          "date": "01 Sep",
           "exerciseType": "",
           "comment": ""
         },
         {
-          "date": "08",
+          "date": "02",
+          "exerciseType": "",
+          "comment": ""
+        },
+        {
+          "date": "03",
+          "exerciseType": "",
+          "comment": ""
+        },
+        {
+          "date": "04",
+          "exerciseType": "",
+          "comment": ""
+        },
+        {
+          "date": "05",
+          "exerciseType": "",
+          "comment": ""
+        },
+        {
+          "date": "06",
           "exerciseType": "",
           "comment": ""
         }
