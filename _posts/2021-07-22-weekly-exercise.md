@@ -26,7 +26,7 @@ Why have I made this plan? There are a number of reasons:
 
 I'm going to document how I'm doing with the chart below. I hope this will give me incentive to see it through!
 
-One particular aim early on is to get back up to doing 5km runs regularly. Parkrun starts up again on 24 June and so it seems reasonable to try and do a 5k every weekend. I won't stick to that religiously but it's a good goal to have in mind.
+One particular aim early on is to get back up to doing 5km runs regularly. Parkrun starts up again on 24 July and so it seems reasonable to try and do a 5k every weekend. I won't stick to that religiously but it's a good goal to have in mind.
 
 <div class="table-responsive-lg">
   <table class="table table-striped table-sm table-hover">
