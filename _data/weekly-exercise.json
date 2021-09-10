@@ -360,33 +360,33 @@
         },
         {
           "date": "01 Sep",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "run",
+          "comment": "4km"
         },
         {
           "date": "02",
-          "exerciseType": "",
+          "exerciseType": "workout",
           "comment": ""
         },
         {
           "date": "03",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "walk",
+          "comment": "6000"
         },
         {
           "date": "04",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "walk",
+          "comment": "6000"
         },
         {
           "date": "05",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "walk",
+          "comment": "6000"
         },
         {
           "date": "06",
-          "exerciseType": "",
-          "comment": ""
+          "exerciseType": "run",
+          "comment": "5km"
         }
       ]
     }
