@@ -1,0 +1,13 @@
+ul.archive {
+  list-style-type: none;
+  padding-left: 0;
+
+  .archive-title {
+    margin-right: 1rem;
+  }
+
+  .date {
+    color: $gray-600;
+    font-size: 0.8em;
+  }
+}
